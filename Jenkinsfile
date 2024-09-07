@@ -70,7 +70,7 @@ pipeline{
 
         stage('Deploy to Staging'){
             steps{
-                echo "Deploy to Staging!"
+                echo "Deploy to Staging Step!"
                 echo "Task: Deploy the Application to a staging server"
                 echo "Tool: Jenkins SSH plugin and Azure Services"
             }
