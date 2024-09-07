@@ -12,7 +12,7 @@ pipeline{
 
         stage('Unit and Integration Tests'){
             steps{
-                echo "Unit and Integration Tests!"
+                echo "Unit and Integration Tests"
                 echo "Task: Run unit tests, integration tests"
                 echo "Tools: JUnit for unit tests and Selenium for integration tests"
             }
@@ -71,7 +71,7 @@ pipeline{
         stage('Deploy to Staging'){
             steps{
                 echo "Deploy to Staging!"
-                echo "Task: Deploy the application to a staging server"
+                echo "Task: Deploy the Application to a staging server"
                 echo "Tool: Jenkins SSH plugin and Azure Services"
             }
         }
